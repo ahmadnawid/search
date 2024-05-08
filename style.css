@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  main {
+    padding: 50px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #search-bar {
+    width: 400px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+
+form {
+  display: flex; /* Makes form elements stack vertically */
+  flex-direction: column; /* Stacks elements on top of each other */
+}
+
+form div { /* Styles each search option section */
+  margin-bottom: 10px;
+}
+
+label {
+  display: block; /* Makes labels appear on separate lines */
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 300px; /* Adjust width as needed */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button[type="submit"] { /* Styles the Advanced Search button */
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
